@@ -1,0 +1,18 @@
+{
+    "name": "NFT_11",
+    "description": "Project Fund Raiser.",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Fade Away"
+        },
+        {
+            "trait_type": "Foreground",
+            "value": "Award-Three"
+        },
+        {
+            "trait_type": "Fundtext",
+            "value": "Fund Raiser"
+        }
+    ]
+}

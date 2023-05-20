@@ -1,0 +1,236 @@
+[
+    {
+        "name": "NFT_00",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Pattern"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Four"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_01",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Four"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_02",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-One"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_03",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Purple Mix"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Five"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_04",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Two"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_05",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Seven"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_06",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Stacked Wall"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Eight"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_07",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Gradient"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Four"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_08",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Stacked Wall"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-One"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_09",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Pattern"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Five"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_10",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Purple Mix"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Ten"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_11",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Fade Away"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Three"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    },
+    {
+        "name": "NFT_12",
+        "description": "Project Fund Raiser.",
+        "attributes": [
+            {
+                "trait_type": "Background",
+                "value": "Green"
+            },
+            {
+                "trait_type": "Foreground",
+                "value": "Award-Six"
+            },
+            {
+                "trait_type": "Fundtext",
+                "value": "Fund Raiser"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+{
+    "name": "NFT_01",
+    "description": "Project Fund Raiser.",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Foreground",
+            "value": "Award-Four"
+        },
+        {
+            "trait_type": "Fundtext",
+            "value": "Fund Raiser"
+        }
+    ]
+}

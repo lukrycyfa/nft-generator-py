@@ -1,0 +1,67 @@
+[
+    {
+        "Background": "Pattern",
+        "Foreground": "Award-Four",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Blue",
+        "Foreground": "Award-Four",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Blue",
+        "Foreground": "Award-One",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Purple Mix",
+        "Foreground": "Award-Five",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Blue",
+        "Foreground": "Award-Two",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Blue",
+        "Foreground": "Award-Seven",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Stacked Wall",
+        "Foreground": "Award-Eight",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Gradient",
+        "Foreground": "Award-Four",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Stacked Wall",
+        "Foreground": "Award-One",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Pattern",
+        "Foreground": "Award-Five",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Purple Mix",
+        "Foreground": "Award-Ten",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Fade Away",
+        "Foreground": "Award-Three",
+        "Fundtext": "Fund Raiser"
+    },
+    {
+        "Background": "Green",
+        "Foreground": "Award-Six",
+        "Fundtext": "Fund Raiser"
+    }
+]
