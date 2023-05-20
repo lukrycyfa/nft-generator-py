@@ -1,0 +1,39 @@
+{
+  "layers": [
+    {
+      "name": "Background",
+      "values": ["Blue", "Green", "Purple Mix", "Fade Away", "Neon Mix", "Pattern", "Gradient", "Stacked Wall", "Mixture", "Leaves"],
+      "trait_path": "./trait-layers/backgrounds",
+      "filename": ["Blue", "Green", "Purple Mix", "Fade Away", "Neon Mix", "Pattern", "Gradient", "Stacked Wall", "Mixture", "Leaves"],
+      "weights": [10,10,10,10,10,10,10,10,10,10]
+    },
+    {
+      "name": "Foreground",
+      "values": ["Award-One", "Award-Two", "Award-Three", "Award-Four", "Award-Five", "Award-Six", "Award-Seven", "Award-Eight", "Award-Nine", "Award-Ten"],
+      "trait_path": "./trait-layers/foreground",
+      "filename": ["Awd-one", "Awd-two", "Awd-three", "Awd-four", "Awd-five", "Awd-six", "Awd-seven", "Awd-eight", "Awd-nine", "Awd-ten"],
+      "weights": [10,10,10,10,10,10,10,10,10,10]
+    },
+    {
+      "name": "Fundtext",
+      "values": ["Fund Raiser"],
+      "trait_path": "./trait-layers/text",
+      "filename": ["donation"],
+      "weights": [100]
+    }
+  ],
+  "incompatibilities": [
+    {
+      "layer": "Background",
+      "value": "Leaves",
+      "incompatible_with": ["Award-Five"],
+      "default": {
+        "value": "Default Incompatibility",
+        "filename": "./trait-layers/foreground/Awd-five"
+      }
+    }
+  ],
+  "baseURI": ".",
+  "name": "NFT_",
+  "description": "Project Fund Raiser."
+}
