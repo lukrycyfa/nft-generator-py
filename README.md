@@ -1,9 +1,9 @@
 
 # nft-generator-py
 
-![preview](https://github.com/Jon-Becker/nft-generator-py/blob/main/preview.png?raw=true)
+![preview](https://github.com/lukrycyfa/nft-generator-py/blob/main/preview.png?raw=true)
 
-nft-generator-py is a python based NFT generator which programatically generates unique images using weighted layer files. The program is simple to use, and new layers can  be added by adding a new layer object and adding names, weights, and image files to the object.
+nft-generator-py is a python based NFT generator which programmatically generates unique images using weighted layer files. The program is simple to use, and new layers can  be added by adding a new layer object and adding names, weights, and image files to the object.
 You can [View The Demo](https://jbecker.dev/demos/nft-generator-py) here.
 
 ## Usage
@@ -21,10 +21,11 @@ As of v2.0.0, nft-generator-py will use the argparse library in order to support
 ## How it works
 - A call to `generate_unique_images(amount, config)` is made, which is the meat of the application where all the processing happens.
 - The `config` object is read and for each object in the `layers` list, random values are selected and checked for uniqueness against all previously generated metadata files.
-- Once we have `amount` unique tokens created, we layer them against eachother and output them and their metadata to their respective folders, `./metadata` and `./images`.
+- Once we have `amount` unique tokens created, we layer them against each other and output them and their metadata to their respective folders, `./metadata` and `./images`.
+
 
 ### Configuration
-```
+```json
 {
     "layers": [
       {
@@ -68,11 +69,11 @@ As of v2.0.0, nft-generator-py will use the argparse library in order to support
 
 The `config` object is a dict that contains configuration instructions that can be changed to produce different outputs when running the program. Within metadata files, images are named using the configuration's `name` parameter, and described using the `description` parameter. 
 - In ascending order, Id's are appended to the `name` resulting in NFT metadata names such as NFT NFT_1.
-- For the sake of our fund raiser tutorial tokenId's won't be assigned to the images at the point the are being generated. But will be assigned to any image selected when the are being minted on the contract.  
+- For the sake of our CrowdFund tutorial tokenId's won't be assigned to the images at the point they are generated. But will be assigned to any image selected when they are minted on the contract.  
 - Id's are padded to the largest amount generated. IE, generating 999 objects will result in names NFT_1, using the above configuration, and generating 1000 objects will result in NFT_999.
 - As of `v1.0.2`, padding filenames has been removed.
 
-The `layers` list contains `layer` objects that define the layers for the program to use when generating unique images. Each `layer` has a name,  which will be displayed as an attribute, values, trait_path, filename, and weights.
+The `layers` list contains `layer` objects that define the layers for the program to use when generating unique images. Each `layer` has a name, which will be displayed as an attribute, values, trait_path, filename, and weights.
 - `trait_path` refers to the path where the image files in `filename` can be found. Please note that filenames omit .png, and it will automatically be prepended.
 - `weight` corresponds with the percent chance that the specific value that weight corresponds to will be selected when the program is run. The weights must add up to 100, or the program will fail.
 
@@ -84,8 +85,7 @@ The `incompatibilities` list contains an object that tells the program what laye
   - `value` is the name of the default selection which will be displayed in the metadata.
   - `filename` is the path to the image file that will be used as the default selection.
   
-- For This tutorial, the generated images in the `/images` and metadata in the `/metadata` directories will be copied to there respective directory Where our Fund Raiser Contract is initiated so the could be interacted with and Uploaded to the IPFS.[Crowdfunding Smart Contract Development Tutorial On Celo With Eth-Brownie](http://place-link-here) a link to the project repo would be provided.
-
+- For This tutorial, the generated images in the `/images` and metadata in the `/metadata` directories will be copied to their respective directory Where our Fund Raiser Contract is initiated so they could be interacted with and Uploaded to the IPFS.[Developing Testing And Deploying A Crowdfund Smart Contract With Eth-Brownie On Celo Alfajores](http://place-link-here) a link to the project repo would be provided.
 
 #### Troubleshooting
 - All images should be in .png format.
@@ -94,4 +94,3 @@ The `incompatibilities` list contains an object that tells the program what laye
 
 ### Credits
 This project is completely coded by [Jonathan Becker](https://jbecker.dev), using no external libraries.
-
