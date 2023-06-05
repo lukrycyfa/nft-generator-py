@@ -85,7 +85,6 @@ The `incompatibilities` list contains an object that tells the program what laye
   - `value` is the name of the default selection which will be displayed in the metadata.
   - `filename` is the path to the image file that will be used as the default selection.
   
-- For This tutorial, the generated images in the `/images` and metadata in the `/metadata` directories will be copied to their respective directory Where our Fund Raiser Contract is initiated so they could be interacted with and Uploaded to the IPFS.[Developing Testing And Deploying A Crowdfund Smart Contract With Eth-Brownie On Celo Alfajores](http://place-link-here) a link to the project repo would be provided.
 
 #### Troubleshooting
 - All images should be in .png format.
